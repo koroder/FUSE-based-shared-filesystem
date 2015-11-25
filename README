@@ -1,8 +1,0 @@
-$ make
-AT SERVER END:
-$ udtfs_server <shared_dir>
-eg. /home/shakir/Desktop/asgnt3/udtfs/udtfs_server rootdir/
-
-AT CLIENT END
-$ udtfs <host_address> <local_mount_dir> -f
-/home/shakir/Desktop/asgnt3/udtfs/udtfs localhost clientdir1/ -f
